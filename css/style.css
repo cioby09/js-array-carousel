@@ -4,6 +4,7 @@
     height: 100vh;
 }
 
+/* Slider */
 .slider {
     position: relative;
     width: 50%;
@@ -15,6 +16,7 @@
 
 .item {
     height: 100%;
+    display: none;
 }
 
 .item img {
@@ -22,6 +24,7 @@
     height: 100%;
 }
 
+/* Slider buttons */
 .up,
 .down {
     position: absolute;
@@ -35,6 +38,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .up {
@@ -43,4 +47,13 @@
 
 .down {
     bottom: 5px;
+}
+
+/* Utilities */
+.active {
+    display: block;
+}
+
+.hidden {
+    display: none;
 }
